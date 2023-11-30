@@ -1,0 +1,73 @@
+meta:
+  title: "Mionix Creative - аутсорсинг разработки Playable'ов"
+  description: Производство интерактивных рекламных креативов для увеличения конверсии
+  sharing:
+    title: "Mionix Creative - аутсорсинг разработки Playable'ов"
+    description: Производство интерактивных рекламных креативов для увеличения конверсии
+    image: 'https://storage.yandexcloud.net/cloud-www-assets/constructor/storybook/images/header-bg-video_light.png'
+    keywords:
+      - playable
+      - googleads
+
+background:
+  image: 'https://storage.yandexcloud.net/cloud-www-assets/constructor/storybook/images/header-bg-video_light.png'
+  height: 660
+  animated: true
+  parallax: true
+  fullWidthMedia: true
+
+blocks:
+  - type: 'header-block'
+    title: "Mionix Creatives - аутсорсинг разработки Playable'ов"
+    description: >-
+      Производство интерактивных рекламных креативов для увеличения конверсии
+    verticalOffset: 'xl'
+    width: 's'
+    buttons:
+      - text: 'Примеры'
+        size: 'promo'
+        theme: 'accent'
+        url: 'https://anikiyevichm.github.io/playable-demo/'
+
+  - type: 'slider-block'
+    title: 'Аутсорсинг разработки плейблов - это когда наша команда разрабочиков, по вашему сценарию и графическим материалам подготовит интерактивный баннер'
+    description: '* Предложение за $499 включает в себя следующие условия'
+    dots: true
+    arrows: true
+    children:
+      - type: 'background-card'
+        title: 'Наше главное предложение - это разработка Playable'
+        text: 'которая включает в себя верстку интерактивного материала согласно вашим требованиям.'
+        background:
+          src: 'https://storage.yandexcloud.net/cloud-www-assets/constructor/storybook/images/img-bg_nopadding_4-12_light.png'
+          alt: 'card-background'
+          disableCompress: true
+        url: 'https://nextjs.org/'
+        paddingBottom: 'l'
+      - type: 'background-card'
+        title: 'Мы гарантируем, что разработанный Playable будет соответствовать всем механикам, описанным в вашем сценарии.'
+        text: "Однако, если некоторые из них не поддерживаются нашим движком, потребуется доработка, что может потребовать дополнительных средств и увеличить срок выполнения проекта."
+        background:
+          src: 'https://storage.yandexcloud.net/cloud-www-assets/constructor/storybook/images/img-bg_nopadding_4-12_light.png'
+          alt: 'card-background'
+          disableCompress: true
+        url: 'https://github.com/gravity-ui/page-constructor'
+        paddingBottom: 'l'
+      - type: 'background-card'
+        title: 'В предложение за $499 не включена стоимость разработки сценария'
+        text: "а также подготовки графики и тестирования Playable’а. Если вам требуется помощь на указанных этапах, мы готовы взять эту работу на себя за дополнительную плату."
+        background:
+          src: 'https://storage.yandexcloud.net/cloud-www-assets/constructor/storybook/images/img-bg_nopadding_4-12_light.png'
+          alt: 'card-background'
+          disableCompress: true
+        url: '#'
+        paddingBottom: 'l'
+      - type: 'background-card'
+        title: 'Мы также можем порекомендовать проверенных подрядчиков'
+        text: "специализирующихся на разработке сценариев, графики и тестировании, которые могут помочь вам на этих этапах проекта."
+        background:
+          src: 'https://storage.yandexcloud.net/cloud-www-assets/constructor/storybook/images/img-bg_nopadding_4-12_light.png'
+          alt: 'card-background'
+          disableCompress: true
+        url: '#'
+        paddingBottom: 'l'

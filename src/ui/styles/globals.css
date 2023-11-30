@@ -1,0 +1,18 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+
+    color: inherit;
+}
+
+* {
+    box-sizing: border-box;
+    --yc-button-background-color: #00C0A3;
+    --g-color-base-brand: #3DCAB5;
+    --g-color-base-brand-hover: #008C77;
+}
