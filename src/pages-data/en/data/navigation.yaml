@@ -7,8 +7,8 @@ header:
     #       url: 'pages/page-1'
     #     - text: 'Page 2'
     #       url: 'pages/page-2'
-    - text: Page 3
-      url: 'page-3'
+    - text: Этапы разработки
+      url: 'development'
   rightItems:
     # - text: 'Github'
     #   url: 'https://github.com/gravity-ui/page-constructor-website-template'

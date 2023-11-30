@@ -31,70 +31,6 @@ blocks:
         theme: 'accent'
         url: 'https://anikiyevichm.github.io/playable-demo/'
 
-  - type: 'slider-block'
-    title: 'Аутсорсинг разработки плейблов - это когда наша команда разрабочиков, по вашему сценарию и графическим материалам подготовит интерактивный баннер'
-    description: '* Предложение за $499 включает в себя следующие условия'
-    dots: true
-    arrows: true
-    children:
-      - type: 'background-card'
-        title: 'Наше главное предложение - это разработка Playable'
-        text: 'которая включает в себя верстку интерактивного материала согласно вашим требованиям.'
-        background:
-          src: 'https://images.pexels.com/photos/7130496/pexels-photo-7130496.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
-          alt: 'card-background'
-          disableCompress: true
-        url: 'https://nextjs.org/'
-        paddingBottom: 'l'
-      - type: 'background-card'
-        title: 'Мы гарантируем, что разработанный Playable будет соответствовать всем механикам, описанным в вашем сценарии.'
-        text: "Однако, если некоторые из них не поддерживаются нашим движком, потребуется доработка, что может потребовать дополнительных средств и увеличить срок выполнения проекта."
-        background:
-          src: 'https://images.pexels.com/photos/7130538/pexels-photo-7130538.jpeg'
-          alt: 'card-background'
-          disableCompress: true
-        url: 'https://github.com/gravity-ui/page-constructor'
-        paddingBottom: 'l'
-      - type: 'background-card'
-        title: 'В предложение за $499 не включена стоимость разработки сценария'
-        text: "а также подготовки графики и тестирования Playable’а. Если вам требуется помощь на указанных этапах, мы готовы взять эту работу на себя за дополнительную плату."
-        background:
-          src: 'https://images.pexels.com/photos/7130490/pexels-photo-7130490.jpeg'
-          alt: 'card-background'
-          disableCompress: true
-        url: '#'
-        paddingBottom: 'l'
-      - type: 'background-card'
-        title: 'Мы также можем порекомендовать проверенных подрядчиков'
-        text: "специализирующихся на разработке сценариев, графики и тестировании, которые могут помочь вам на этих этапах проекта."
-        background:
-          src: 'https://images.pexels.com/photos/7130464/pexels-photo-7130464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
-          alt: 'card-background'
-          disableCompress: true
-        url: '#'
-        paddingBottom: 'l'
-
-
-        
-  - additionalInfo: 'Более подробно о том, что такое Playable можно узнать по ссылкам ниже '
-    description: 'Playable - это интерактивный формат рекламы, помогающий рекламодателям показать свое приложение в действии, чтобы убедить пользователей скачать его. Такой формат существенно повышает конверсию объявления (CTR) и снижает стоимость целевого действия (CPA).'
-    largeMedia: false
-    media: 
-      light: 
-        image: 'https://leonardo.osnova.io/1b164d40-f284-cc0e-5819-d1b85e62ff89/-/preview/2000/-/format/webp/'
-    mediaOnly: false
-    size: 'l'
-    title: 'Что такое Playable?'
-    type: 'media-block'
-    buttons:
-      - text: 'Google'
-        size: 'promo'
-        theme: 'outlined-info'
-        url: 'https://t.ly/uivNQ'
-      - text: 'Facebook'
-        size: 'promo'
-        theme: 'outlined-success'
-        url: 'https://t.ly/CiJXi'
 
   - colSizes: 
       all: 12
@@ -149,6 +85,7 @@ blocks:
 
     type: 'extended-features-block'
       
+
   - type: 'content-layout-block'
     textContent:
       buttons: 

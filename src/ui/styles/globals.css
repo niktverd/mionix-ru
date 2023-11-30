@@ -12,7 +12,8 @@ a {
 
 * {
     box-sizing: border-box;
-    --yc-button-background-color: #00C0A3;
-    --g-color-base-brand: #3DCAB5;
-    --g-color-base-brand-hover: #008C77;
+    --yc-button-background-color: #00c0a3;
+    --g-color-base-brand: #3dcab5;
+    --g-color-base-brand-hover: #008c77;
+    --g-color-text-link: #008c77;
 }

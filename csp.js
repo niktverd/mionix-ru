@@ -1,7 +1,13 @@
 const isDev = process.env.NODE_ENV === 'development';
 
 const YOUTUBE = 'www.youtube.com';
-const ASSETS_STORAGE = 'https://storage.yandexcloud.net';
+const ASSETS_STORAGE = [
+    'https://storage.yandexcloud.net',
+    'https://i.ibb.co/',
+    'https://images.pexels.com',
+    'https://leonardo.osnova.io',
+    'https://www.svgrepo.com',
+];
 
 const policiesConfig = {
     'default-src': ["'self'"],
@@ -11,7 +17,7 @@ const policiesConfig = {
     'object-src': ["'self'", 'data:'],
     'style-src-elem': ["'self'", "'unsafe-inline'"],
     'style-src-attr': ["'self'", "'unsafe-inline'"],
-    'img-src': ["'self'", ASSETS_STORAGE, 'data:'],
+    'img-src': ["'self'", ...ASSETS_STORAGE, 'data:'],
     'font-src': ["'self'"],
     'child-src': ["'self'", YOUTUBE],
     'frame-src': ["'self'", YOUTUBE],
