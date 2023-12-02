@@ -19,7 +19,7 @@ header:
       theme: pseudo
 
 logo:
-  icon: ''
+  icon: '/img/mionix-logo-with-text-light-circle.svg'
   text: 'Mionix Creative'
 
 footer:
@@ -43,8 +43,8 @@ footer:
           url: '/page-3'
 
 meta:
-  title: Next.js + page-constructor template
+  title: Mionix Creative
   description: Template for multi-page SSR website with dynamic content
 
 favicon:
-  folder: /assets/favicon
+  folder: /

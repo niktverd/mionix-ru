@@ -10,8 +10,7 @@ meta:
       - googleads
 
 background:
-  image: 'https://images.pexels.com/photos/2259221/pexels-photo-2259221.jpeg'
-  # image: 'https://images.pexels.com/photos/1029622/pexels-photo-1029622.jpeg'
+  image: '/img/banner-mionis.svg'
   height: 660
   animated: true
   parallax: true
@@ -41,7 +40,7 @@ blocks:
         title: 'Наше главное предложение - это разработка Playable'
         text: 'которая включает в себя верстку интерактивного материала согласно вашим требованиям.'
         background:
-          src: 'https://images.pexels.com/photos/7130496/pexels-photo-7130496.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+          src: '/img/mionix-card-background-1.png'
           alt: 'card-background'
           disableCompress: true
         url: 'https://nextjs.org/'
@@ -50,7 +49,7 @@ blocks:
         title: 'Мы гарантируем, что разработанный Playable будет соответствовать всем механикам, описанным в вашем сценарии.'
         text: "Однако, если некоторые из них не поддерживаются нашим движком, потребуется доработка, что может потребовать дополнительных средств и увеличить срок выполнения проекта."
         background:
-          src: 'https://images.pexels.com/photos/7130538/pexels-photo-7130538.jpeg'
+          src: '/img/mionix-card-background-2.png'
           alt: 'card-background'
           disableCompress: true
         url: 'https://github.com/gravity-ui/page-constructor'
@@ -59,7 +58,7 @@ blocks:
         title: 'В предложение за $499 не включена стоимость разработки сценария'
         text: "а также подготовки графики и тестирования Playable’а. Если вам требуется помощь на указанных этапах, мы готовы взять эту работу на себя за дополнительную плату."
         background:
-          src: 'https://images.pexels.com/photos/7130490/pexels-photo-7130490.jpeg'
+          src: '/img/mionix-card-background-3.png'
           alt: 'card-background'
           disableCompress: true
         url: '#'
@@ -68,7 +67,7 @@ blocks:
         title: 'Мы также можем порекомендовать проверенных подрядчиков'
         text: "специализирующихся на разработке сценариев, графики и тестировании, которые могут помочь вам на этих этапах проекта."
         background:
-          src: 'https://images.pexels.com/photos/7130464/pexels-photo-7130464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+          src: '/img/mionix-card-background-4.png'
           alt: 'card-background'
           disableCompress: true
         url: '#'

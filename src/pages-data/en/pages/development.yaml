@@ -10,8 +10,7 @@ meta:
       - googleads
 
 background:
-  image: 'https://images.pexels.com/photos/2259221/pexels-photo-2259221.jpeg'
-  # image: 'https://images.pexels.com/photos/1029622/pexels-photo-1029622.jpeg'
+  image: '/img/banner-mionis-2.svg'
   height: 660
   animated: true
   parallax: true

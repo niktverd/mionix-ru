@@ -4,7 +4,6 @@ const YOUTUBE = 'www.youtube.com';
 const ASSETS_STORAGE = [
     'https://storage.yandexcloud.net',
     'https://i.ibb.co/',
-    'https://images.pexels.com',
     'https://leonardo.osnova.io',
     'https://www.svgrepo.com',
 ];
